@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ntsoaki Sefuba is a Front-end Developer, based in South Africa"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -26,9 +30,32 @@
     />
 
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Portfolio</title>
+    <title>About Ntsoaki- Ntsoaki Sefuba</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/logo.png"
+          class="logo d-none d-md-block"
+          alt="Ntsoaki Logo"
+        />
+        <ul>
+          <li>
+            <a href="index.html" title="Homepage"> Home </a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Ntsoaki"> About </a>
+          </li>
+          <li>
+            <a href="work.html" title="Ntsoaki's Work"> Work</a>
+          </li>
+          <li>
+            <a href="contact.html" title="Contact Ntsoaki"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -42,13 +69,69 @@
               keep focus
             </p>
 
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
           <img src="images/patricia.png" alt="" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Ntsoaki"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:ntsoakisefuba5@gmail.com"
+            class="email-link"
+            title="Email Ntsoaki"
+          >
+            ntsoakisefuba5@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/ntsoaki_79"
+            target="_blank"
+            title="Instagram Profile"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+          <a
+            href="https://www.github.com/N1018"
+            target="_blank"
+            title="Github Profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/Ntsoaki Sefuba"
+            target="_blank"
+            title="Facebook Profile"
+          >
+            <i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Ntsoaki Sefuba, and it is
+          <a href="https://www.github.com/portfolio-project" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
